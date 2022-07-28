@@ -2,7 +2,7 @@
 the repo is dedicated to support streamlit app on the could
 
 the app address
-https://infinimesh-tn-streamlit-mlrun-revc-streamlit-app-ki9uv5.streamlitapp.com/
+https://infinimesh-tn-streamlit-mlrun-rev-d-uchunk-streamlit-app-fqkgm4.streamlitapp.com/
 
 ```
 How to install streamlit locally:
