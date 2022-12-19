@@ -398,7 +398,7 @@ def split_audio_to_uChunks(audio_data):
 ## ==== Functions to make spectrograms ====
 ## ----------------------------------------
 
-@tf.function
+# @tf.function
 def get_uChunk_spectrogram( waveform, sampling_rate, file_path, uChunk_index ):
     waveform_1d_shape = tf.shape(waveform)
     n_samples  = waveform_1d_shape[0]
@@ -429,7 +429,7 @@ def get_uChunk_spectrogram( waveform, sampling_rate, file_path, uChunk_index ):
 
 uChunk_spectrogram_shape_to_analyze = (64*2*1, 64*1*1)
 
-@tf.function
+# @tf.function
 def uChunk_spectrogram_resize(spectrogram, file_path, uChunk_index):
     return tf.image.resize(spectrogram, uChunk_spectrogram_shape_to_analyze), file_path, uChunk_index
 
